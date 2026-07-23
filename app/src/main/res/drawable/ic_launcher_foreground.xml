@@ -4,9 +4,14 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- 8-pointed star: union of two squares (0° + 45°), side=44.
-         Interleaved outer corners + edge intersections. -->
-    <path
-        android:fillColor="#FF1B5E20"
-        android:pathData="M54,23 L63,32 L76,32 L76,45 L85,54 L76,63 L76,76 L63,76 L54,85 L45,76 L32,76 L32,63 L23,54 L32,45 L32,32 L45,32 Z" />
+  <group android:scaleX="0.75580645"
+      android:scaleY="0.75580645"
+      android:translateX="13.186452"
+      android:translateY="13.186452">
+      <!-- 8-pointed star: union of two squares (0° + 45°), side=44.
+           Interleaved outer corners + edge intersections. -->
+      <path
+          android:fillColor="#FF1B5E20"
+          android:pathData="M54,23 L63,32 L76,32 L76,45 L85,54 L76,63 L76,76 L63,76 L54,85 L45,76 L32,76 L32,63 L23,54 L32,45 L32,32 L45,32 Z" />
+  </group>
 </vector>
